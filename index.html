@@ -21,7 +21,8 @@
         to see if I can use it and still have the li's line up on the upper right-->
         <nav>
             <ul>
-                <li>
+                <li> 
+    <!-- FIX: DOESNT SCALE--> 
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
                 <li>
@@ -35,9 +36,11 @@
         
     </header>
 <!-- Change 3 Divs below to something more semantic-->
-    <div class="hero"></div>
+<!-- Also I think an img tag is better SEO practice than having the link in CSS-->
+    <img src="./assets/images/digital-marketing-meeting.jpg" class="hero">
     <div class="content">
-        <div class="search-engine-optimization">
+<!-- Add ID so we can jump down when we click on the nav link-->
+        <div id="search-engine-optimization" class ="search-engine-optimization">
 <!-- ADD Alt Attribute Below-->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
