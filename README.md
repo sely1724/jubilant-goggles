@@ -20,4 +20,6 @@ NA
 Please refer to the LICENSE in the repo.
 
 ## Screenshots
-[Horiseon's New & Improved Website:]((./assets/images/brand-awareness.png))
+[Horiseon's New & Improved Website](./assets/images/Screenshot1.png)
+
+
