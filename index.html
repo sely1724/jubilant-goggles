@@ -3,26 +3,23 @@
        
 
 <head>
-<!-- Should I add anything extra to META tag to improve SEO.  Can I add anything extra to meta?? -->
+<!-- ??????Should I add anything extra to META tag to improve SEO.  Can I add anything extra to meta?? -->
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-<!-- Add desc here? learned online -->
     <meta name="Horiseon SEO" content="A Digital Marketing Agency that builds brands by improving SEO and creating strategies">
- <!-- Is there something more specific than "website" for SEO title 50-60 char-->
-    <title>Horiseon - SEO & Digital Marketing Strategies</title>
- <!-- Should I add anything extra to the head to improve SEO?-->
+    <title>Horiseon - SEO & Social Media Marketing Strategies </title>
 </head>
 
 <body>
+ <!-- DONE: Semantic Change - Replaced div with header -->
     <header class="header"> 
-        <h1>Hori<em class="seo">seo</em>n</h1>
-    <!-- Change Div to something more semantic-->
-    <!-- Changing Div broke css going to commit to nav for now and checkout css 
-        to see if I can use it and still have the li's line up on the upper right-->
+<!-- DONE: Semantic Change - Replaced span with em -->
+        <h1>Hori<em>seo</em>n</h1>
+<!-- DONE: Semantic Change - Replaced div with nav -->
         <nav>
             <ul>
                 <li> 
-    <!-- FIX: DOESNT SCALE--> 
+
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
                 <li>
@@ -35,15 +32,16 @@
         </nav>
     </header>
 
-<!-- added MAIN section-->
+<!-- DONE: Semantic Change - Replaced div with main -->
 <main>
-<!-- improved Background Image -->
+<!-- Done: Semantic Change - Replaced div with figure and adjusted CSS to reincorporate background img -->
 <figure class="hero" role="img" alt="Digital Marketing Meeting at a conference table"></figure>
 
-<section class="content">
-<!-- DONE: Changed divs to articles -->
+<section class="marketing-strategies">
+
+<!-- DONE: Semantic Change - Replaced div with article -->
 <!-- DONE: Added ID so we can jump down when we click on the nav link-->
-        <article id= "search-engine-optimization" class ="search-engine-optimization">
+        <article id= "search-engine-optimization">
 <!-- ADD Alt Attribute Below-->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
@@ -52,7 +50,7 @@
             </p>
         </article>
 
-        <article id="online-reputation-management" class="online-reputation-management">
+        <article id="online-reputation-management" >
 <!-- ADD Alt Attribute Below-->
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
             <h2>Online Reputation Management</h2>
@@ -61,7 +59,7 @@
             </p>
         </article>
         
-        <article id="social-media-marketing" class="social-media-marketing">
+        <article id="social-media-marketing" >
 <!-- ADD Alt Attribute Below-->
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
             <h2>Social Media Marketing</h2>
@@ -73,7 +71,7 @@
 <!-- DONE: Semantic Change - Replaced divs with aside & articles -->
 <!-- Look into Headers and sequence - user story references this but it looks like they are mainly in sequential order? -->
     <aside class="benefits">
-        <article class="benefit-lead">
+        <article>
             <h3>Lead Generation</h3>
 <!-- ADD Alt Attribute Below-->
             <img src="./assets/images/lead-generation.png" />
@@ -81,7 +79,7 @@
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </article>
-        <article class="benefit-brand">
+        <article>
             <h3>Brand Awareness</h3>
 <!-- ADD Alt Attribute Below-->
             <img src="./assets/images/brand-awareness.png" />
@@ -89,7 +87,7 @@
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </article>
-        <article class="benefit-cost">
+        <article>
             <h3>Cost Management</h3>
 <!-- ADD Alt Attribute Below-->
             <img src="./assets/images/cost-management.png" />
