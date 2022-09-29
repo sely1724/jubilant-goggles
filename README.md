@@ -20,8 +20,11 @@ NA
 Please refer to the LICENSE in the repo.
 
 ## Screenshots
-[Screenshot 1 -Horiseon's New & Improved Website](./assets/images/Screenshot1.png)
-[Screenshot 2 -Horiseon's New & Improved Website](./assets/images/Screenshot2.png)
-[Screenshot 2 -Horiseon's New & Improved Website](./assets/images/Screenshot3.png)
+- [Screenshot 1 -Horiseon's New & Improved Website](./assets/images/Screenshot1.png)
+- [Screenshot 2 -Horiseon's New & Improved Website](./assets/images/Screenshot2.png)
+- [Screenshot 2 -Horiseon's New & Improved Website](./assets/images/Screenshot3.png)
+
+## Link to Deployed Website
+[Link](https://sely1724.github.io/semantic-structures/)
 
 
