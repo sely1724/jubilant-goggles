@@ -20,6 +20,6 @@ NA
 Please refer to the LICENSE in the repo.
 
 ## Screenshots
-[Horiseon's New & Improved Website](./assets/images/social-media-marketing.jpg)
+[Horiseon's New & Improved Website](./assets/images/Screenshot1.png)
 
 
